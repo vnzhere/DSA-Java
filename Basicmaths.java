@@ -2,12 +2,16 @@
 public class Basicmaths{
     static int countDigits(int n){
         // static can be called even without creating any object
+
         int count = 0; 
         // count starts at 0 and then adds the values as per loop 
+
         if (n==0) return 1;
         // edge case 1: when n==0, prints 0 and stop 
+
         n = Math.abs(n);
         // handles negatives
+
         while(n>0){
             // loop runs till the value becomes 0
             n = n/10;
@@ -22,12 +26,14 @@ public class Basicmaths{
    
     static void extractDigits(int n){
         // edge case: return 0 and stop
+
         if (n == 0) {
             System.out.println(0);
             return;
         }
         n = Math.abs(n);
         System.out.print("Digits: ");
+        
         while(n > 0){
             int digit = n%10;
             // 1234%10=4, 123%10=3, 12%10=2, 1%10=1
