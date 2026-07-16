@@ -101,4 +101,36 @@ class Solution {
     }
 }
 
-// 
+// 1175 prime arrangements 
+class Solution {
+
+    static final int MOD = 1_000_000_007;
+
+    public int numPrimeArrangements(int n) {
+
+        int prime = 0;
+
+        for (int i = 2; i <= n; i++) {
+            boolean isPrime = true;
+ 
+            for (int j = 2; j * j <= i; j++) {
+                if (i % j == 0) {
+                    isPrime = false;
+                    break;
+                }
+            }
+
+            if (isPrime)
+                prime++;
+        }
+
+        return (int)((fact(prime) * fact(n - prime)) % MOD);
+    }
+
+    private long fact(int n) {
+        long ans = 1;
+        for (int i = 2; i <= n; i++)
+            ans = ans * i % MOD;
+        return ans;
+    }
+}
