@@ -1,4 +1,4 @@
-public class LC 1780Armstrongsnumber{
+public class LC1780Armstrongsnumber {
     static boolean isArmstrong(int n){
         int original = n;
         int k = 0;
@@ -13,7 +13,7 @@ public class LC 1780Armstrongsnumber{
         temp = n;
         while(temp>0){
             int digits = temp%10;
-            sum = sum + (int) Math.pow(digit,k);
+            sum = sum + (int) Math.pow(digits , k);
 
             temp = temp/10;
         }
@@ -21,4 +21,12 @@ public class LC 1780Armstrongsnumber{
 
 
     }
+    public static void main(String[] args) {
+    System.out.println(isArmstrong(153));  // true
+    System.out.println(isArmstrong(123));  // false
+    System.out.println(isArmstrong(370));  // true
+    System.out.println(isArmstrong(9474)); // true
 }
+}
+
+
