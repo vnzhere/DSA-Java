@@ -63,3 +63,42 @@ class Solution {
         
     }
 }
+
+// 866 prime palindrome 
+class Solution {
+    public int primePalindrome(int n) {
+        while (true) {
+            if (isPrime(n) && isPalindrome(n)) {
+                return n;
+            }
+            n++;
+            if (n > 11 && String.valueOf(n).length() % 2 == 0) {
+                n = (int) Math.pow(10, String.valueOf(n).length());
+            }
+        }
+    }
+
+    private boolean isPrime(int n) {
+        if (n < 2) return false;
+        if (n == 2) return true;
+        if (n % 2 == 0) return false;
+        for (int i = 3; i * i <= n; i += 2) {
+            if (n % i == 0) return false;
+        }
+        return true;
+    }
+
+    private boolean isPalindrome(int n) {
+        int original = n;
+        int reversed = 0;
+        int temp = n;
+        while (temp > 0) {
+            int digit = temp % 10;
+            reversed = reversed * 10 + digit;
+            temp = temp / 10;
+        }
+        return reversed == original;
+    }
+}
+
+// 
