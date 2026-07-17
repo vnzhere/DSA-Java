@@ -23,3 +23,22 @@ public class Printalldivisor{
     printDivisors(100);  // 1 100 2 50 4 25 5 20 10
     }
 }
+
+// LC 1952 three divisors
+class Solution {
+    public boolean isThree(int n) {
+
+        int count = 0;
+
+        for(int i =1; i*i<=n; i++){
+            if(n%i == 0){
+                count++;
+
+                if(i!=n/i){
+                    count++;
+                }
+            }
+        } 
+         return count == 3;         
+    }
+}
