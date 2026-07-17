@@ -64,3 +64,29 @@ class Solution {
         
     }
 }
+
+// LC 1362 closest divisors
+class Solution {
+    public int[] closestDivisors(int num) {
+        int[] res1 = findClosest(num + 1);
+        int[] res2 = findClosest(num + 2);
+
+        if(res1[1] - res1[0] <= res2[1] - res2[0] ){
+            return res1;
+        }else{
+            return res2;
+        }
+    }
+
+    private int[] findClosest(int n){
+        int[] result = new int[2];
+
+        for(int i=1; i*i<=n; i++){
+            if(n%i == 0){
+                result[0] =i;
+                result[1] = n/i;
+            }
+        }
+        return result;
+    }
+}
