@@ -15,7 +15,7 @@ while(N > 0){
 }
 return result;
 
-// LC 50 
+// LC 50  pow(x,n)
 class Solution {
     public double myPow(double x, int n) {
 
@@ -38,7 +38,7 @@ class Solution {
         
     }
 }
-//  LC 231 
+//  LC 231 power of two
 class Solution {
     public boolean isPowerOfTwo(int n) {
         return n > 0 && (n & (n-1)) == 0;
