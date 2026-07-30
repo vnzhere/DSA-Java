@@ -12,3 +12,12 @@ static void equilateralTriangle(double a) {
     System.out.println("Perimeter : " + perimeter);
     System.out.println("Height    : " + height);
 }
+equilateralTriangle(6);
+// Area      = 15.588
+// Perimeter = 18.0
+// Height    = 5.196
+
+equilateralTriangle(1);
+// Area      = 0.433
+// Perimeter = 3.0
+// Height    = 0.866
