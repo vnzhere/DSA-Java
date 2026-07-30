@@ -38,7 +38,7 @@ class Solution {
         
     }
 }
-//  LC 231
+//  LC 231 
 class Solution {
     public boolean isPowerOfTwo(int n) {
         return n > 0 && (n & (n-1)) == 0;
@@ -47,4 +47,11 @@ class Solution {
     }
 }
 
-// LC 326
+// LC 326 power of three
+class Solution {
+    public boolean isPowerOfThree(int n) {
+
+        return n > 0 && 1162261467 % n == 0;
+        
+    }
+}
