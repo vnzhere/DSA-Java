@@ -14,3 +14,5 @@ while(N > 0){
     N = N/2;
 }
 return result;
+
+// LC 50 
