@@ -14,3 +14,13 @@ static void bubbleSort(int[] arr){
          if(!swapped) break;
     }
 }
+System.out.println("=== Bubble Sort ===");
+int[] arr = {5, 3, 8, 1, 2};
+bubbleSort(arr);
+System.out.println(Arrays.toString(arr));
+// [1, 2, 3, 5, 8]
+
+int[] arr2 = {1, 2, 3, 4};
+bubbleSort(arr2);
+System.out.println(Arrays.toString(arr2));
+// [1, 2, 3, 4] → 0 swaps, exits early
