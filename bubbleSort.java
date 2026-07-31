@@ -24,3 +24,5 @@ int[] arr2 = {1, 2, 3, 4};
 bubbleSort(arr2);
 System.out.println(Arrays.toString(arr2));
 // [1, 2, 3, 4] → 0 swaps, exits early
+
+// LC 283 Move zeroes
