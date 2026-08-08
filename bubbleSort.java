@@ -68,3 +68,8 @@ class Solution {
                 nums[high] = temp;
 
                 high--;
+                 }
+        }
+        
+    }
+}
