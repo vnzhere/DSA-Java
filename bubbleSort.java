@@ -55,3 +55,7 @@ class Solution {
                 int temp = nums[low];
                 nums[low] = nums[mid];
                 nums[mid] = temp;
+
+                low++;
+                mid++;
+            }
