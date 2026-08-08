@@ -63,3 +63,8 @@ class Solution {
                   mid++;
             }
             else{
+                 int temp = nums[mid];
+                nums[mid] = nums[high];
+                nums[high] = temp;
+
+                high--;
