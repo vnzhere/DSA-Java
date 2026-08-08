@@ -52,3 +52,6 @@ class Solution {
 
         while(mid <= high){
             if(nums[mid] == 0){
+                int temp = nums[low];
+                nums[low] = nums[mid];
+                nums[mid] = temp;
