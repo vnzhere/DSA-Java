@@ -44,3 +44,5 @@ class Solution {
 }
 
 // LC 75 Sort colors
+class Solution {
+    public void sortColors(int[] nums) {
