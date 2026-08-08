@@ -59,3 +59,6 @@ class Solution {
                 low++;
                 mid++;
             }
+               else if (nums[mid] == 1){
+                  mid++;
+            }
