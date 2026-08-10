@@ -39,3 +39,23 @@ class Solution {
     }
     
 }
+
+
+
+
+for(int p=0; p < temp.length; p++){
+            arr[left+p] = temp[p];
+        }
+    }
+    
+}for(int p=0; p < temp.length; p++){
+            arr[left+p] = temp[p];
+        }
+    }
+    
+}for(int p=0; p < temp.length; p++){
+            arr[left+p] = temp[p];
+        }
+    }
+    
+}
