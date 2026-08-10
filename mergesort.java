@@ -4,3 +4,7 @@ class Solution {
         mergesort(nums, 0, nums.length-1);
         return nums;    
     }
+      static void mergesort(int arr[], int left, int right){
+            if(left >= right){
+            return;
+        }  
