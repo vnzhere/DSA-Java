@@ -19,3 +19,11 @@ class Solution {
         int i = left;
         int j = mid+1;
         int k =0;
+
+         while(i<= mid && j<=right){
+            if(arr[i] <= arr[j]){
+                temp[k++] = arr[i++];
+            }else{
+                temp[k++] = arr[j++];
+            }
+        }
