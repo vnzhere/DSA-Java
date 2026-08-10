@@ -33,3 +33,9 @@ class Solution {
          while(j<= right){
             temp[k++] = arr[j++];
         }
+        for(int p=0; p < temp.length; p++){
+            arr[left+p] = temp[p];
+        }
+    }
+    
+}
