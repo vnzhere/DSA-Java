@@ -27,3 +27,6 @@ class Solution {
                 temp[k++] = arr[j++];
             }
         }
+        while(i <= mid){
+            temp[k++] = arr[i++];
+        }
