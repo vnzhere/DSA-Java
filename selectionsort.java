@@ -13,4 +13,4 @@ for (int i =0; i < n-1; i++){
     arr[MinIndex] = temp;
 }
 
-LC - 414
+// LC - 414
