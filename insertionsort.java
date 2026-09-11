@@ -26,4 +26,9 @@ static int fibonacci(int n){
     if (n == 1) return 1;
 
     return fibonacci(n-1)+ fibonacci(n-2);
-}
+}echo "alias push='git add . && git commit -m \"Initial COmmit\" && git push'" >> ~/.bashrc
+source ~/.bashrcecho "alias push='git add . && git commit -m \"Initial COmmit\" && git push'" >> ~/.bashrc
+source ~/.bashrcecho "alias push='git add . && git commit -m \"Initial COmmit\" && git push'" >> ~/.bashrc
+source ~/.bashrcecho "alias push='git add . && git commit -m \"Initial COmmit\" && git push'" >> ~/.bashrc
+source ~/.bashrcecho "alias push='git add . && git commit -m \"Initial COmmit\" && git push'" >> ~/.bashrc
+source ~/.bashrc
