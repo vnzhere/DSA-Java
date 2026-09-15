@@ -6,4 +6,10 @@ static void insertionSort(int[] arr) {
 
         int j = i - 1;
         // start comparing from left
+         while (j >= 0 && arr[j] > key) {
+            arr[j + 1] = arr[j];
+            // shift larger element right
+            j--;
+        }
+
 
