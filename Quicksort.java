@@ -18,3 +18,11 @@ static int partition(int[] arr, int low, int high) {
 
     int i = low - 1;
     // i tracks position for smaller elements
+
+     for (int j = low; j < high; j++) {
+        if (arr[j] <= pivot) {
+            i++;
+            // swap arr[i] and arr[j]
+            int temp = arr[i];
+            arr[i] = arr[j];
+            arr[j] = temp;
