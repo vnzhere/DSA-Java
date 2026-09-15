@@ -11,5 +11,9 @@ static void insertionSort(int[] arr) {
             // shift larger element right
             j--;
         }
+         arr[j + 1] = key;
+        // insert key at correct position
+    }
+}
 
 
