@@ -15,3 +15,6 @@ static void quickSort(int[] arr, int low, int high) {
 static int partition(int[] arr, int low, int high) {
     int pivot = arr[high];
     // choose last element as pivot
+
+    int i = low - 1;
+    // i tracks position for smaller elements
