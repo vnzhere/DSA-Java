@@ -12,3 +12,6 @@ static void quickSort(int[] arr, int low, int high) {
     }
     // base case: low>=high means 0 or 1 element
 }
+static int partition(int[] arr, int low, int high) {
+    int pivot = arr[high];
+    // choose last element as pivot
