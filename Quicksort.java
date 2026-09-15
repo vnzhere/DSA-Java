@@ -10,3 +10,5 @@ static void quickSort(int[] arr, int low, int high) {
         // sort right of pivot
         quickSort(arr, pivotIndex + 1, high);
     }
+    // base case: low>=high means 0 or 1 element
+}
