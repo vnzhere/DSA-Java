@@ -26,3 +26,11 @@ static int partition(int[] arr, int low, int high) {
             int temp = arr[i];
             arr[i] = arr[j];
             arr[j] = temp;
+
+             }
+    }
+
+    // place pivot in correct position
+    int temp = arr[i + 1];
+    arr[i + 1] = arr[high];
+    arr[high] = temp;
