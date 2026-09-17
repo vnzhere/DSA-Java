@@ -13,3 +13,8 @@ static int fibonacci(int n){
 
     return fibonacci(n-1)+ fibonacci(n-2);
 }
+echo "alias push='git add . && git commit -m \"Initial Commit\" && git push'" >> ~/.bashrc
+source ~/.bashrcecho "alias push='git add . && git commit -m \"Initial Commit\" && git push'" >> ~/.bashrc
+source ~/.bashrcecho "alias push='git add . && git commit -m \"Initial Commit\" && git push'" >> ~/.bashrc
+source ~/.bashrcecho "alias push='git add . && git commit -m \"Initial Commit\" && git push'" >> ~/.bashrc
+source ~/.bashrc
