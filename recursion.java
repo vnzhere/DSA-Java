@@ -33,3 +33,22 @@ for (int i = 0; i < nums.length - 2; i++) {
     }
 }
 
+
+
+
+# print name n times using recursion and backtracking 
+
+Void f(I,n)
+if(I>n)
+Return
+
+print(“Raj”)
+f(I+1, n)
+
+}
+main()
+}
+
+Int n ——— n=3
+cin>>n
+f(1,n)
