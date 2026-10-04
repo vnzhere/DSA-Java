@@ -54,25 +54,7 @@ cin>>n
 f(1,n)
 
 
-echo "alias push='git add . && git commit -m \"Initial Commit\" && git push'" >> ~/.bashrc
-source ~/.bashrc
-echo "alias push='git add . && git commit -m \"Initial Commit\" && git push'" >> ~/.bashrc
-source ~/.bashrc
-echo "alias push='git add . && git commit -m \"Initial Commit\" && git push'" >> ~/.bashrc
-source ~/.bashrc
-echo "alias push='git add . && git commit -m \"Initial Commit\" && git push'" >> ~/.bashrc
-source ~/.bashrc
-echo "alias push='git add . && git commit -m \"Initial Commit\" && git push'" >> ~/.bashrc
-source ~/.bashrc
-echo "alias push='git add . && git commit -m \"Initial Commit\" && git push'" >> ~/.bashrc
-source ~/.bashrc
-echo "alias push='git add . && git commit -m \"Initial Commit\" && git push'" >> ~/.bashrc
-source ~/.bashrc
-echo "alias push='git add . && git commit -m \"Initial Commit\" && git push'" >> ~/.bashrc
-source ~/.bashrcs
-echo "alias push='git add . && git commit -m \"Initial Commit\" && git push'" >> ~/.bashrc
-source ~/.bashrc
-echo "alias push='git add . && git commit -m \"Initial Commit\" && git push'" >> ~/.bashrc
+ commit -m \"Initial Commit\" && git push'" >> ~/.bashrc
 source ~/.bashrc
 echo "alias push='git add . && git commit -m \"Initial Commit\" && git push'" >> ~/.bashrc
 source ~/.bashrc
