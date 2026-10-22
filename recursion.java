@@ -121,4 +121,8 @@ source ~/.bashrcsource ~/.bashrcecho "alias push='git add . && git commit -m \"I
 source ~/.bashrcsource ~/.bashrcecho "alias push='git add . && git commit -m \"Initial Commit\" && git push'" >> ~/.bashrc
 source ~/.bashrcsource ~/.bashrcecho "alias push='git add . && git commit -m \"Initial Commit\" && git push'" >> ~/.bashrc
 source ~/.bashrcsource ~/.bashrcecho "alias push='git add . && git commit -m \"Initial Commit\" && git push'" >> ~/.bashrc
+source ~/.bashrcsource ~/.bashrcecho "alias push='git add . && git commit -m \"Initial Commit\" && git push'" >> ~/.bashrc
+source ~/.bashrcsource ~/.bashrcecho "alias push='git add . && git commit -m \"Initial Commit\" && git push'" >> ~/.bashrc
+source ~/.bashrcsource ~/.bashrcecho "alias push='git add . && git commit -m \"Initial Commit\" && git push'" >> ~/.bashrc
+source ~/.bashrcsource ~/.bashrcecho "alias push='git add . && git commit -m \"Initial Commit\" && git push'" >> ~/.bashrc
 source ~/.bashrc
